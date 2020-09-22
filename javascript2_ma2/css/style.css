@@ -1,0 +1,32 @@
+  
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #ebebeb;
+    font-family: sans-serif;
+}
+
+
+
+
+.book-detail {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 200px;
+    background: white;
+    border: 1px solid grey;
+    border-radius: 1rem;
+    margin-top:2rem;
+}
+@media (min-width: 480px) {
+    .pets {
+        flex-direction: row;
+    }
+}
